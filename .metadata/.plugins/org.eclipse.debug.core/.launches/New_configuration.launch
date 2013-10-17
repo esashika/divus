@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="net.sourceforge.phpeclipse.externaltools.ProgramLaunchConfigurationType">
+<stringAttribute key="net.sourceforge.phpeclipse.externaltools.ATTR_LOCATION" value="/Applications/XAMPP/XAMPP Control.app"/>
+</launchConfiguration>
