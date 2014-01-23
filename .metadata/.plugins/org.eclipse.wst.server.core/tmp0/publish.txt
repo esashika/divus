@@ -1,0 +1,8 @@
+#Tomcat publish data
+#Sat Jan 18 14:51:04 AMT 2014
+org.eclipse.jst.jee.server\:aj5lab04_01=/Users/Rhedson/Java/apache-tomcat-7.0.29/wtpwebapps/aj5lab04_01
+org.eclipse.jst.jee.server\:aj5lab07_01=/Users/Rhedson/Java/apache-tomcat-7.0.29/wtpwebapps/aj5lab07_01
+org.eclipse.jst.jee.server\:aj5lab05_01=/Users/Rhedson/Java/apache-tomcat-7.0.29/wtpwebapps/aj5lab05_01
+org.eclipse.jst.jee.server\:projetoweb=/Users/Rhedson/Java/apache-tomcat-7.0.29/wtpwebapps/projetoweb
+org.eclipse.jst.jee.server\:aj5lab04_03=/Users/Rhedson/Java/apache-tomcat-7.0.29/wtpwebapps/aj5lab04_03
+org.eclipse.jst.jee.server\:aj5lab04_02=/Users/Rhedson/Java/apache-tomcat-7.0.29/wtpwebapps/aj5lab04_02

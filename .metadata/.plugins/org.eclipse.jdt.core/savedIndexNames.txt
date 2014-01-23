@@ -1,14 +1,3 @@
 INDEX VERSION 1.126+/Users/Rhedson/Java/divus/.metadata/.plugins/org.eclipse.jdt.core
-55991178.index
-2029178941.index
-641533014.index
-2659279667.index
-356359527.index
-746839508.index
-718252351.index
-881372088.index
-2352270557.index
-2222457353.index
-2117154565.index
-3965133563.index
-810992315.index
+2956374338.index
+3897925908.index

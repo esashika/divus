@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+           http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+           version="2.5">
+
+
+  <servlet>
+    <description>servlet de obtencao de catalogo no servidor de dados</description>
+    <servlet-name>catalogoProdutos</servlet-name>
+    <servlet-class>br.com.globalcode.aj.ecommerce.CatalogoProdutos</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>servlet de montagem e visualizacao do catalogo</description>
+    <servlet-name>catalogoView</servlet-name>
+    <servlet-class>br.com.globalcode.aj.ecommerce.CatalogoProdutosView</servlet-class>
+    <!--
+       Adicione aqui o codigo pedido na apostila
+    -->
+  </servlet>
+
+  <servlet>
+    <description>servlet de controle do carrinho de compras</description>
+    <servlet-name>adicionarProdutoCarrinho</servlet-name>
+    <servlet-class>br.com.globalcode.aj.ecommerce.AdicionarProdutoCarrinho</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>catalogoProdutos</servlet-name>
+    <url-pattern>/catalogoProdutos</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>catalogoView</servlet-name>
+    <url-pattern>/catalogoProdutosView</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>adicionarProdutoCarrinho</servlet-name>
+    <url-pattern>/adicionarProdutoCarrinho</url-pattern>
+  </servlet-mapping>
+
+</web-app>
